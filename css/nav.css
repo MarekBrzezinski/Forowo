@@ -1,0 +1,29 @@
+.nav {
+    background-color: aliceblue;
+}
+
+.nav__list {
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav__link {
+    color: blueviolet;
+    text-decoration: none; 
+}
+
+.nav__link:focus {
+    outline: 1px solid black;
+}
+
+.nav__link:hover {
+    color: red;
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.nav__link:active {
+    color: black;
+}

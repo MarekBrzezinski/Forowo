@@ -1,0 +1,22 @@
+.header {
+    background-color: aqua;
+    color: royalblue;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 10px auto;
+    text-shadow: 1px 1px 2px black;
+}
+
+.header__title {
+    color: royalblue;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 10px auto;
+    text-shadow: 1px 1px 2px black;
+}
+
+.header__image {
+    border-radius: 50%;
+    max-width: 300px;
+    margin: 10px 0;
+}

@@ -1,0 +1,20 @@
+.article {
+    margin: 10px auto;
+    overflow-x: auto;
+}
+
+.article__title {
+    color:royalblue
+}
+
+.article__interestingElement {
+    color: royalblue;
+}
+
+.article__strong {
+    background-color: #43df3061;
+}
+
+.article__list {
+    list-style-type: none;
+}

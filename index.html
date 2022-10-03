@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forowo</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/header.css" rel="stylesheet" />
+    <link href="css/nav.css" rel="stylesheet" />
+    <link href="css/article.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/footer.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Titillium+Web:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="js/script.js"></script>
+  </head>
+
+  <body class="body">
+    <header class="header">
+      <h1 class="header__title">
+        FOROWO<br />Wypożyczalnia Fotelików, Wózków i Rowerków
+      </h1>
+      <img
+        class="header__image"
+        src="https://i.ibb.co/7rFHNrX/Forowo.jpg"
+        alt="Zdjęcie oferty Forowo"
+      />
+      <!-- there will be another photo here in the future -->
+    </header>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__list">
+          <a class="nav__link" href="#foteliki">Foteliki</a>
+        </li>
+        <li class="nav__list">
+          <a class="nav__link" href="#rowerki">Rowerki</a>
+        </li>
+        <li class="nav__list">
+          <a class="nav__link" href="#wózki">Wózki</a>
+        </li>
+        <li class="nav__list">
+          <a class="nav__link" href="#footer">Stopka</a>
+        </li>
+      </ul>
+    </nav>
+    <article class="article">
+      <h2 class="article__title">MISJA</h2>
+      <p>
+        <span class="article__interestingElement"
+          >Przekonać rodziców dzieci w wieku do 5 lat
+          <b class="article__strong">wypożyczaniem (sharingiem) </b> produktów
+          przeznaczonych dla ich pociech, takich jak:</span
+        >
+      </p>
+
+      <ul class="article__list">
+        <li class="article__list">foteliki do samochodu,</li>
+        <li class="article__list">wózki,</li>
+        <li class="article__list">rowerki,</li>
+        <li class="article__list">nosidełka,</li>
+        <li class="article__list">chodziki,</li>
+        <li class="article__list">łóżeczka,</li>
+        <li class="article__list">nianie elektroniczne,</li>
+        <li class="article__list">itp.</li>
+      </ul>
+    </article>
+
+    <main class="main">
+      <aside class="main__aside">
+        <p>
+          Dziecko może nauczyć dorosłych trzech rzeczy: cieszyć się bez powodu,
+          być ciągle czymś zajętym i domagać się — ze wszystkich sił — tego,
+          czego pragnie.
+        </p>
+        <p>Paulo Coelho</p>
+      </aside>
+      <div class="main__offer">
+        <section id="foteliki">
+          <div class="main__textOffer">
+            <h2 class="main__header">Foteliki</h2>
+            <p>
+              Oferujemy szereką gamę <em>nowych i używanach</em> fotelików do
+              samochodu dla dzieci w <strong>wieku od 0 do 5 lat</strong>.<br />
+              <i>
+                Foteliki do samochodu to postawowy i niezbędny produkt przydatny
+                rodzicom podczas pierwszych lat życia dziecka</i
+              >
+            </p>
+          </div>
+        </section>
+        <section id="rowerki">
+          <div class="main__textOffer">
+            <h2 class="main__header">Rowerki</h2>
+            <p>
+              Oferujemy szereką gamę <em>nowych i używanach</em> rowerków dla
+              dzieci w <strong>wieku od 0 do 5 lat</strong>.<br />
+              <i>
+                Rowerki to postawowy i niezbędny produkt przydatny rodzicom
+                podczas pierwszych lat życia dziecka</i
+              >
+            </p>
+          </div>
+        </section>
+        <section id="wózki">
+          <div class="main__textOffer">
+            <h2 class="main__header">Wózki</h2>
+            <p>
+              Oferujemy szereką gamę <em>nowych i używanach</em> wózków dla
+              dzieci w <strong>wieku od 0 do 5 lat</strong>.<br />
+              <i>
+                Wózki to postawowy i niezbędny produkt przydatny rodzicom
+                podczas pierwszych lat życia dziecka</i
+              >
+            </p>
+          </div>
+        </section>
+      </div>
+  <article class="main__hiddenPriceOffer js-main__hiddenPriceOffer">
+        <h3>Oferta cenowa</h3>
+        <table class="main__table">
+          <caption class="main__caption">
+            Szczegółowy cennik
+          </caption>
+          <tr>
+            <th
+              rowspan="2"
+              scope="row"
+              class="main__tableCell main__tableHeader"
+            >
+              Rodzaj sprzętu
+            </th>
+            <th
+              scope="col"
+              class="main__tableCell main__tableHeader"
+              colspan="3"
+            >
+              Długość umowy
+            </th>
+          </tr>
+          <tr>
+            <th scope="row" class="main__tableCell main__tableHeader">
+              3 miesięce
+            </th>
+            <th scope="row" class="main__tableCell main__tableHeader">
+              12 miesięce
+            </th>
+            <th scope="row" class="main__tableCell main__tableHeader">
+              24 miesięce
+            </th>
+          </tr>
+          <tr>
+            <th scope="row" class="main__tableCell main__tableHeader">
+              Foteliki
+            </th>
+            <td class="main__tableCell">80 zł/miesiąc</td>
+            <td class="main__tableCell">60 zł/miesiąc</td>
+            <td class="main__tableCell">40 zł/miesiąc</td>
+          </tr>
+          <tr>
+            <th scope="row" class="main__tableCell main__tableHeader">
+              Rowerki
+            </th>
+            <td class="main__tableCell">80 zł/miesiąc</td>
+            <td class="main__tableCell">50 zł/miesiąc</td>
+            <td class="main__tableCell">40 zł/miesiąc</td>
+          </tr>
+          <tr>
+            <th scope="row" class="main__tableCell main__tableHeader">Wózki</th>
+            <td class="main__tableCell">100 zł/miesiąc</td>
+            <td class="main__tableCell">80 zł/miesiąc</td>
+            <td class="main__tableCell">60 zł/miesiąc</td>
+          </tr>
+        </table>
+      </article>
+      <button class="main__button js-main__button">Pokaż ofertę cenową</button>
+    </main>
+    <footer class="footer" id="footer">
+      Autor: Marek Brzeziński<br />Telefon: 502185032
+    </footer>
+  </body>
+</html>

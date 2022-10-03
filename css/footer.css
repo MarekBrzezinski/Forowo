@@ -1,0 +1,12 @@
+.footer {
+    border: 5px groove black;
+    border-radius: 10px;
+    color: royalblue;
+    background-color: aqua;
+    padding: 30px;
+    margin: 35px;
+    line-height: 1.5;
+    outline: 5px solid black;
+    outline-offset: 10px;
+    box-shadow: 1px 1px 5px 5px rgb(24, 59, 233);
+}

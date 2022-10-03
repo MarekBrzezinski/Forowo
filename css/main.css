@@ -1,0 +1,76 @@
+.main {
+    border: 10px double rgb(24, 59, 233);
+    border-radius: 10px;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+.main__header {
+    color: red;
+}
+
+.main__aside {
+    font-family: 'Petit Formal Script', cursive;
+    color: royalblue;
+    background-color: #43df3061;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px;
+    margin-bottom: 15px;
+    outline: 5px solid red;
+    font-size: 20px;
+}
+
+.main__offer {
+    display: flex;
+    flex-direction: row;
+    color: rgb(24 15 11 / 78%);
+    background-color: rgb(29 62 226 / 34%);
+    border: 5px groove rgb(24, 59, 233);
+    border-radius: 10px;
+    overflow-x: auto;
+}
+
+.main__textOffer {
+    padding: 5px 10px 5px 10px;
+    margin: 10px auto;
+}
+
+.main__hiddenPriceOffer {
+    display: none;
+}
+
+.main__priceOffer {
+    margin: 10px auto;
+    overflow-x: auto;
+}
+
+.main__table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main__tableHeader {
+    background-color: aqua;
+}
+
+.main__tableCell {
+    border: 2px solid red;
+    padding: 15px;
+}
+
+.main__caption {
+    caption-side: bottom;
+    text-align: right;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.main__button {
+    margin-top: 15px;
+    color: aqua;
+    background-color: black;
+    border-radius: 20px;
+    cursor: pointer;
+}
