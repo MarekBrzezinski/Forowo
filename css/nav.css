@@ -3,27 +3,31 @@
 }
 
 .nav__list {
-    list-style-type: none;
-    padding: 10px;
     display: flex;
+    padding: 10px;
     justify-content: center;
 }
 
-.nav__link {
+.nav__listItem {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.nav__listItemLink {
     color: blueviolet;
     text-decoration: none; 
 }
 
-.nav__link:focus {
+.nav__listItemLink:focus {
     outline: 1px solid black;
 }
 
-.nav__link:hover {
+.nav__listItemLink:hover {
     color: red;
     border-bottom: 1px solid;
     outline: none;
 }
 
-.nav__link:active {
+.nav__listItemLink:active {
     color: black;
 }
