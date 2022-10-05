@@ -19,3 +19,7 @@
     margin-top: 10px;
     padding-bottom: 10px;
 }
+
+.table__overflow {
+    overflow-x: auto;
+}
