@@ -45,28 +45,6 @@
     overflow-x: auto;
 }
 
-.main__table {
-    border-collapse: collapse;
-    width: 80%;
-    margin: 0 auto;
-}
-
-.main__tableHeader {
-    background-color: aqua;
-}
-
-.main__tableCell {
-    border: 2px solid red;
-    padding: 15px;
-}
-
-.main__caption {
-    caption-side: bottom;
-    text-align: right;
-    margin-top: 10px;
-    padding-bottom: 10px;
-}
-
 .main__button {
     margin-top: 15px;
     color: aqua;

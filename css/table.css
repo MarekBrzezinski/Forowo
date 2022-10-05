@@ -1,0 +1,21 @@
+.table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.table__header {
+    background-color: aqua;
+}
+
+.table__cell {
+    border: 2px solid red;
+    padding: 15px;
+}
+
+.table__caption {
+    caption-side: bottom;
+    text-align: right;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
