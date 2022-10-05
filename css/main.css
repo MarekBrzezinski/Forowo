@@ -9,9 +9,9 @@
     color: red;
 }
 
-.main__aside {
+.main__section {
     font-family: 'Petit Formal Script', cursive;
-    color: royalblue;
+    color: rgb(51 82 175);
     background-color: #43df3061;
     padding: 5px;
     border-radius: 10px;
