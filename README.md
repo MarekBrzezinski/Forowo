@@ -1,13 +1,14 @@
-# Projekt strony firmy FO/RO/WO
+# Project of website to FO/RO/WO
+## The name FO/RO/WO is an abbreviation of the first letters of three Polish words:
 
-- FO jak Foteliki
-- RO jak Rowerki
-- WO jak Wózki
+- FO / Foteliki (child safty seat)
+- RO / Rowerki (children's bicycle)
+- WO / Wózki (stroller)
 
 **Demo**
 
 https://marekbrzezinski.github.io/Forowo/
 
-*Opis projektu*
+*Prodject descripion*
 
-FO/RO/WO jest początkującą firmą chcącą budować rozwiązania sheringowe w zakresie produktów dla rodziców dzieci w wieku do lat 5.
+FO/RO/WO is a start-up that wants to sharing products for parrnets of children up to five years old.
