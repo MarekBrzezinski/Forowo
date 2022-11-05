@@ -1,18 +1,18 @@
 .header {
-    background-color: aqua;
-    color: royalblue;
+    background-color: rgb(0, 255, 255);
+    color: rgb(65, 105, 225);
     padding: 10px 20px;
     text-align: center;
     margin: 10px auto;
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 .header__title {
-    color: royalblue;
+    color: rgb(65, 105, 225);
     padding: 10px 20px;
     text-align: center;
     margin: 10px auto;
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 .header__image {

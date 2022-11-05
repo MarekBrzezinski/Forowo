@@ -14,20 +14,20 @@
 }
 
 .nav__listItemLink {
-    color: blueviolet;
+    color: rgb(138, 43, 226);
     text-decoration: none; 
 }
 
 .nav__listItemLink:focus {
-    outline: 1px solid black;
+    outline: 1px solid rgb(0, 0, 0);
 }
 
 .nav__listItemLink:hover {
-    color: red;
+    color: rgb(255, 0, 0);
     border-bottom: 1px solid;
     outline: none;
 }
 
 .nav__listItemLink:active {
-    color: black;
+    color: rgb(0, 0, 0);
 }
