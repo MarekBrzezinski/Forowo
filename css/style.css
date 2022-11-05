@@ -14,3 +14,7 @@ html {
     margin: 10px auto;
     font-family: 'Titillium Web', sans-serif;
 }
+
+.hidden {
+    display: none;
+}
